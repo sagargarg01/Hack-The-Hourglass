@@ -18,10 +18,11 @@ html {
   height: 100%;
 }
 .block-detail{
-  text-align: center;
+  text-align: start;
   font-size: large;
   font-family: 'Open Sans',sans-serif;
   margin-top:30px;
+  padding-left: 7rem;
   
 }
 
@@ -30,7 +31,7 @@ html {
 }
 .block-detail:hover .block-text{
   display: inline-block;
-  text-align:center;
+  text-align:start;
 }
 h1,
 h2,
