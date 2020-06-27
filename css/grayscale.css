@@ -27,11 +27,19 @@ html {
 }
 
 .block-text{
-  display: none;
+  max-height:0;
+  opacity :0;
+  overflow: hidden;
+  transition: all 0.6s ease;
+    
 }
 .block-detail:hover .block-text{
   display: inline-block;
   text-align:start;
+  opacity: 1;
+  transition:all 0.6s ease;
+  max-height: 100%;
+   
 }
 h1,
 h2,
