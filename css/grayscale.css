@@ -18,19 +18,28 @@ html {
   height: 100%;
 }
 .block-detail{
-  text-align: center;
+  text-align: start;
   font-size: large;
   font-family: 'Open Sans',sans-serif;
   margin-top:30px;
+  padding-left: 7rem;
   
 }
 
 .block-text{
-  display: none;
+  max-height:0;
+  opacity :0;
+  overflow: hidden;
+  transition: all 0.6s ease;
+    
 }
 .block-detail:hover .block-text{
   display: inline-block;
-  text-align:center;
+  text-align:start;
+  opacity: 1;
+  transition:all 0.6s ease;
+  max-height: 100%;
+   
 }
 h1,
 h2,
