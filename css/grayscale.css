@@ -520,3 +520,79 @@ body{background-color:#f1f1f2}
   text-align: start;
   width: 80%;
 }
+
+.footer-contact-info p{
+  font-size: 13px;
+}
+
+.social-info a i{
+color: white;
+padding: 10px;
+font-size: x-large;
+}
+
+.footer-logo img{
+  width: 250px;
+  height: 85px;
+}
+
+
+.sponsor{
+  padding-bottom: 50px;
+  padding-top: 15px;
+}
+.sponsor img{
+
+  /* display: inline-block; */
+  max-width: 100%;
+  /* height: 30%; */
+  vertical-align: top;
+  transition: transform .2s;
+  transition-timing-function: ease-in;
+  -o-transition-delay: 0s;
+  display: inline-flex;
+  align-items: center;
+}
+
+.sponsor img:hover{
+  transform: scale(1.2);
+}
+
+/* Devfolio Button */
+#devfolio-apply-now {
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  
+  background-color: #3770FF;
+  border-radius: 3px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 20px;
+  margin: 0 auto;
+  text-align: center;
+  
+  /* text-transform: lowercase; */
+}
+
+#devfolio-apply-now:not([disabled]) {
+  cursor: pointer;
+ 
+}
+
+#devfolio-apply-now:hover {
+  background-color: #2954BF !important;
+ 
+}
+
+.in{
+  margin-left: 50px;
+}
