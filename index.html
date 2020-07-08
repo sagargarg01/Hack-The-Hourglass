@@ -197,7 +197,7 @@
 
 
      <!-- Speakers Section -->
-     <section id="speakers" class="darker-black content-section">
+     <!-- <section id="speakers" class="darker-black content-section">
       <div class="download-section">
         <div class="container">
           <div class="">
@@ -228,7 +228,7 @@
         </div>
       </div>
     </section>
-
+ -->
 
     <!-- Schedule Section -->
     <section id="schedule" class="content-section text-center th">
@@ -605,5 +605,29 @@
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
+
+    <!-- Script for DevFolio Button -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        let devfolioOptions = {
+            buttonSelector: '#devfolio-apply-now',
+            key: 'hackthehourglass',
+        }
+
+        let script = document.createElement('script');
+        script.src = "https://apply.devfolio.co";
+        document.head.append(script);
+
+        script.onload = function () {
+            new Devfolio(devfolioOptions);
+        }
+
+        script.onerror = function () {
+            document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
+                window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
+            });
+        }
+      });
+  </script>
   </body>
 </html>
