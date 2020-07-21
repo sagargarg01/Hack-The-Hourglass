@@ -519,6 +519,16 @@ body{background-color:#f1f1f2}
   margin-bottom: 10px; 
   text-align: start;
   width: 80%;
+  /* background-color:   rgba(211, 211, 211, 0.384); */
+}
+
+.panel-heading{
+  background-color:   rgba(211, 211, 211, 0.384);
+  color :   rgba(211, 211, 211, 0.384);
+}
+
+.panel-default{
+  background-color:   rgba(211, 211, 211, 0.384);
 }
 
 .footer-contact-info p{
@@ -538,8 +548,9 @@ font-size: x-large;
 
 
 .sponsor{
-  padding-bottom: 50px;
+  padding-bottom: 70px;
   padding-top: 15px;
+  
 }
 .sponsor img{
 
@@ -595,4 +606,44 @@ font-size: x-large;
 
 .contact-info{
   margin-left: 50px;
+}
+
+
+/* PRIZES */
+
+
+.card {
+  /* border: #000; */
+  /* border: 1px solid black; */
+  /* display: inline-flex; */
+  border-radius: 5px;
+  padding : 20px;
+  max-width : 58rem;
+  background-color: #252525;
+  margin-bottom: 20px;
+  color : #808080;
+}
+
+.card-header{
+  /* text-align: center; */
+  /* display: inline-table; */
+  z-index: 300;
+  /* margin :0; */
+  padding-left: 0;
+  margin-left: 0;
+  padding-bottom: 10px;
+   /* border: 1px solid black; */
+   max-width : 100%;
+}
+
+.card-body li{
+  color: silver;
+  padding-bottom: 5px;
+  /* height: 32px; */
+  font-size: 15px;
+}
+
+.card-title{
+  padding-bottom: 5px;
+  margin-bottom: 12px;
 }
