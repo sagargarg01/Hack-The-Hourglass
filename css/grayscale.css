@@ -547,6 +547,16 @@ font-size: x-large;
 }
 
 
+.footer-logo-mait img {
+  width: auto;
+  height: 115px;
+}
+
+.row .col-12{
+  margin-top: 15px;
+}
+
+
 .sponsor{
   padding-bottom: 70px;
   padding-top: 15px;
@@ -604,10 +614,6 @@ font-size: x-large;
  
 }
 
-.contact-info{
-  margin-left: 50px;
-}
-
 
 /* PRIZES */
 
@@ -618,7 +624,6 @@ font-size: x-large;
   /* display: inline-flex; */
   border-radius: 5px;
   padding : 20px;
-  max-width : 58rem;
   background-color: #252525;
   margin-bottom: 20px;
   color : #808080;
@@ -646,4 +651,27 @@ font-size: x-large;
 .card-title{
   padding-bottom: 5px;
   margin-bottom: 12px;
+}
+
+
+/* DIGNATORIES */
+
+.box4{position:relative;width:320px;height: 320px;border: 4px solid #3588E7; border-radius: 10px;}
+.box4:before{width:0;height:200%;background:rgba(0,0,0,.5);position:absolute;top:0;left:-250px;bottom:0;transform:skewX(-36deg);transition:all .5s ease 0s}
+.box4:hover{border: none;}
+.box4:hover:before{width:200%;}
+.box4 img{width:100%;height:auto;}
+.box4 .box-content{width:100%;height:100%;padding-top:50%;position:absolute;top:0;left:0;transform:scale(0);transition:all .3s ease 0s}
+.box4 .icon,.box5 .icon{list-style:none;padding:0}
+.box4:hover .box-content{transform:scale(1)}
+.box4 .title{font-size:22px;font-weight:700;color:#fff;margin:0 0 10px}
+.box4 .post{display:block;font-size:15px;font-weight:600;color:#fff;margin-bottom:20px}
+.box4 .icon{margin:0}
+.box4 .icon li{display:inline-block}
+.box4 .icon li a{display:block;width:35px;height:35px;line-height:35px;font-size:20px;background:#fff;color:#3588E7;margin-right:10px;transition:all .3s ease 0s}
+.box5 .icon,.box5 .icon li{display:inline-block}
+@media only screen and (max-width:990px){.box4{margin-bottom:30px}
+}
+@media only screen and (max-width:767px){.box4:before{left:-400px}
+.box4:hover:before{width:300%}
 }
