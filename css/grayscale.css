@@ -675,3 +675,34 @@ font-size: x-large;
 @media only screen and (max-width:767px){.box4:before{left:-400px}
 .box4:hover:before{width:300%}
 }
+ /* Counter */
+ 
+#clockdiv{ 
+  font-family: sans-serif; 
+  color:white; 
+  display: inline-block; 
+  font-weight: 100; 
+  text-align: center; 
+  font-size: 50px; 
+ 
+} 
+#clockdiv > div{ 
+  padding: 20px; 
+  border-radius: 30px; 
+  background:black; 
+  display: inline-block; 
+  
+ 
+} 
+#clockdiv div > span{ 
+  padding: 15px; 
+  border-radius: 100px; 
+  background:rgb(0, 17, 255); 
+  display: inline-block; 
+  height:100px;
+  width:80px;
+} 
+.smalltext{ 
+  padding-top: 5px; 
+  font-size: 20px; 
+} 
