@@ -709,12 +709,14 @@ font-size: x-large;
 
   marquee{
    color:rgb(255, 209, 6);
+   font-size:15px;
    margin-top: 130px;
   }
 
   @media(min-width:992px){
     marquee{
    color:rgb(255, 209, 6);
+   font-size:15px;
    margin-top: 80px;
   }
   }
